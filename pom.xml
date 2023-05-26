@@ -20,6 +20,16 @@
      <maven.compiler.target>1.8</maven.compiler.target>
  </properties>
   
+<distributionManagement>
+	<respository>
+		<id>github</id>
+		<name>Github Packages</name>
+		<url>https://maven.pkg.github.com/rckyrrr/CI-CD_RickyRohaendi_1302200007</url>
+	</repository>
+</distributionManagement>
+<properties>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
 </project>
 
-$ mvn install
+
